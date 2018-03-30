@@ -10,7 +10,9 @@
         }
     ],
     "autoload": {
-        "Thr33\\Composer\\": "source"
+        "psr-4": {
+            "Thr33\\Composer\\": "source"
+        }
     },
     "require": {
         "composer-plugin-api": "^1.1"
