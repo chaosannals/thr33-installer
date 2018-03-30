@@ -1,0 +1,18 @@
+{
+    "name": "chaosannals/thr33-installer",
+    "description": "a Composer installer plugin of the Thr33.",
+    "type": "composer-plugin",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "chaosannals",
+            "email": "chaosannals@outlook.com"
+        }
+    ],
+    "autoload": {
+        "Thr33\\Composer\\": "source"
+    },
+    "require": {
+        "composer-plugin-api": "^1.1"
+    }
+}
