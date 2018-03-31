@@ -16,7 +16,7 @@ final class Plugin implements PluginInterface {
      * @param IOInterface $io: Composer IO 输出接口。
      */
     public function activate(Composer $composer, IOInterface $io) {
-        $manager = $composer->getInstallerManager();
+        $manager = $composer->getInstallationManager();
         $manager->addInstaller(new Installer($io, $composer, 'thr33-module'));
     }
 } 
