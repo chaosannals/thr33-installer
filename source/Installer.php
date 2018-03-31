@@ -1,7 +1,7 @@
 <?php namespace Thr33\Composer;
 
 use Composer\Package\PackageInterface;
-use Composer\Installer\LibarayInstaller;
+use Composer\Installer\LibraryInstaller;
 use Composer\Repository\InstalledRepositoryInterface;
 
 /**
