@@ -14,6 +14,9 @@
             "Thr33\\Composer\\": "source"
         }
     },
+    "extra": {
+        "class": "Thr33\\Composer\\Plugin"
+    },
     "require": {
         "composer-plugin-api": "^1.1"
     }
